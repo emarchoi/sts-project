@@ -86,7 +86,12 @@ results = model.predict(
 for result in results:
     result.show()
 ```
-<<<<<<< HEAD
-=======
+---
 
->>>>>>> d8c076cdbc1cf9fdc759fe553ac5a6f15b8faf4f
+## TESTING USING INTEGRATED CAMERA
+
+### Just run this python script
+Make sure you are still inside the test_model directory
+```powershell
+python test_camera.py
+```

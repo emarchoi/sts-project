@@ -86,3 +86,7 @@ results = model.predict(
 for result in results:
     result.show()
 ```
+<<<<<<< HEAD
+=======
+
+>>>>>>> d8c076cdbc1cf9fdc759fe553ac5a6f15b8faf4f

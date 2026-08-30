@@ -40,11 +40,11 @@ cd test_model
 python test.py
 ``` 
 ---
-<<<<<<< HEAD
 
 ## CUSTOM TEST IMAGES
 
 Use the following if you want to play around the model
+- If you want to add test images, add it to its corresponding folders
 
 ### Option A: Test images one-by-one
 
@@ -86,5 +86,3 @@ results = model.predict(
 for result in results:
     result.show()
 ```
-=======
->>>>>>> 9a675612994de96353c4310a1ee24298747a8300

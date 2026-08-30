@@ -40,7 +40,6 @@ cd test_model
 python test.py
 ``` 
 ---
-<<<<<<< HEAD
 
 ## CUSTOM TEST IMAGES
 
@@ -86,5 +85,4 @@ results = model.predict(
 for result in results:
     result.show()
 ```
-=======
->>>>>>> 9a675612994de96353c4310a1ee24298747a8300
+

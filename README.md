@@ -1,7 +1,4 @@
 # IF YOU WANT TO TEST THE DETECTION MODEL
-
-Follow these instructions to set up your local environment and run inference tests using the trained YOLO model (`best.pt`).
-
 ---
 
 ## PREREQUISITES
@@ -25,3 +22,16 @@ python -m venv .venv
 
 # 3. Install required dependencies
 pip install -r requirements.txt
+```
+### Step 2: Run the Test Script
+
+Navigate to the directory containing the test script and execute it:
+
+```powershell
+# 1. Target the directory where the script is located
+cd test_model
+
+# 2. Run the main test script
+python test.py
+``` 
+---

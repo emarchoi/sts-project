@@ -4,6 +4,11 @@
 ## PREREQUISITES
 
 Make sure you have **Python 3.8+** installed on your system before proceeding.
+```powershell
+# Check if you have python installed
+# Put this on your terminal (cmd, powershell)
+python --version
+```
 
 ---
 

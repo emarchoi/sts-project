@@ -1,0 +1,25 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Ultralytics & PyTorch Run Outputs
+runs/
+*.pt
+*.onnx
+*.engine
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code Local Workspace Settings
+.vscode/

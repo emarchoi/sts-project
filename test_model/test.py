@@ -1,0 +1,16 @@
+from ultralytics import YOLO
+
+model = YOLO(
+    "../test_model/best.pt"
+)
+
+results = model.predict(
+    source="../test_model/test_images/non-bio/milo.png",
+    imgsz=640,
+    conf=0.25
+)
+
+"""for result in results:
+    result.show()"""
+
+results[0].show()

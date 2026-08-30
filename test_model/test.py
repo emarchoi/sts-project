@@ -10,7 +10,4 @@ results = model.predict(
     conf=0.25
 )
 
-"""for result in results:
-    result.show()"""
-
 results[0].show()

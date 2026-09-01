@@ -4,17 +4,40 @@
 ## PREREQUISITES
 
 Make sure you have **Python 3.8+** installed on your system before proceeding.
+If not installed, download it first.
 ```powershell
 # Check if you have python installed
 # Put this on your terminal (cmd, powershell)
 python --version
 ```
 
+Make sure you also have **Git** installed on your computer.
+If not installed, download it first.
+```powershell
+# Check if you have git installed
+# Put this on your terminal (cmd, powershell)
+git --version
+```
 ---
 
 ## QUICK SETUP
 
-### Step 1: Set Up the Virtual Environment
+### Step 1: Cloning this Repository
+
+Copy and paste this on the terminal
+
+```powershell
+# 1. Clone the repository
+git clone https://github.com/emarchoi/sts-project.git
+
+# 2. Go to the project initial directory
+cd sts-project
+
+# 3. Open the project in Visual Studio Code
+code . 
+```
+
+### Step 2: Set Up the Virtual Environment
 
 Open your terminal (PowerShell for Windows) and run:
 
@@ -28,7 +51,7 @@ python -m venv .venv
 # 3. Install required dependencies
 pip install -r requirements.txt
 ```
-### Step 2: Run the Test Script
+### Step 3: Run the Test Script
 
 Navigate to the directory containing the test script and execute it:
 

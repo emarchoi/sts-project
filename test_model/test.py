@@ -5,7 +5,7 @@ model = YOLO(
 )
 
 results = model.predict(
-    source="../test_model/test_images/non-bio/milo.png",
+    source="../test_model/test_images/non-bio/cont.jpg",
     imgsz=640,
     conf=0.25
 )

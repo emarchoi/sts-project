@@ -17,9 +17,9 @@ sts_proj
     ├── test_camera.py              # Python Script for Testing the Camera
     └── test.py                     # Python Script for Manual Testing
 ```
-
-# IF YOU WANT TO TEST THE DETECTION MODEL
 ---
+ 
+# IF YOU WANT TO TEST THE DETECTION MODEL
 
 ## PREREQUISITES
 

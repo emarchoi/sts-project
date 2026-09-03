@@ -1,3 +1,23 @@
+# PROJECT STRUCTURE
+```powershell
+sts_proj
+├── .gitignore                      # Ignores .venv
+├── requirements.txt                # Python dependencies
+├── README.md                       # Project overview
+│
+├── mobile_dev/                     # Mobile App Development Folder
+│   ├── best.tflite                 # Exported best.pt model
+│   └── labels.txt                  # Class mapping (0: Bio, 1: Non-Bio)
+│
+├── esp32_con/                      # ESP32 Development Folder
+│
+└── test_model/                     # Test Model Folder
+    ├── test_images                 # Test Images Folder
+    ├── best.pt                     # Camera Detection Model
+    ├── test_camera.py              # Python Script for Testing the Camera
+    └── test.py                     # Python Script for Manual Testing
+```
+
 # IF YOU WANT TO TEST THE DETECTION MODEL
 ---
 

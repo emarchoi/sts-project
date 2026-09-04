@@ -87,7 +87,7 @@ python test.py
 ## CUSTOM TEST IMAGES
 
 Use the following if you want to play around the model
-- If you want to add test images, add it to its corresponding folders
+If you want to add test images, add it to its corresponding folders
 
 ### Option A: Test images one-by-one
 

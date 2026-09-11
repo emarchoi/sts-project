@@ -40,7 +40,13 @@ sts_proj
 
 # COLLABORATION
 
-### Step 1: Make sure to clone the repository
+### Step 1: Make sure to Clone the Repository
+
+> [!NOTE]
+> If you have already cloned the repository, you can skip this step
+> Do this if already cloned:
+> 1. Open Visual Studio Code
+> 2. Open Folder then find sts-project
 
 Copy and paste this on the terminal
 

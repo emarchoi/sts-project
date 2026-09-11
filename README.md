@@ -17,9 +17,9 @@ sts_proj
     ├── test_camera.py              # Python Script for Testing the Camera
     └── test.py                     # Python Script for Manual Testing
 ```
-
-# IF YOU WANT TO TEST THE DETECTION MODEL
 ---
+ 
+# IF YOU WANT TO TEST THE DETECTION MODEL
 
 ## PREREQUISITES
 
@@ -87,7 +87,7 @@ python test.py
 ## CUSTOM TEST IMAGES
 
 Use the following if you want to play around the model
-- If you want to add test images, add it to its corresponding folders
+If you want to add test images, add it to its corresponding folders
 
 ### Option A: Test images one-by-one
 

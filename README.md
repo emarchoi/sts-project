@@ -1,3 +1,22 @@
+# PREREQUISITES
+
+Make sure you have **Python 3.8+** installed on your system before proceeding.
+If not installed, download it first.
+```powershell
+# Check if you have python installed
+# Put this on your terminal (cmd, powershell)
+python --version
+```
+
+Make sure you also have **Git** installed on your computer.
+If not installed, download it first.
+```powershell
+# Check if you have git installed
+# Put this on your terminal (cmd, powershell)
+git --version
+```
+---
+
 # PROJECT STRUCTURE
 ```powershell
 sts_proj
@@ -18,27 +37,54 @@ sts_proj
     └── test.py                     # Python Script for Manual Testing
 ```
 ---
- 
-# IF YOU WANT TO TEST THE DETECTION MODEL
 
-## PREREQUISITES
+# COLLABORATION
 
-Make sure you have **Python 3.8+** installed on your system before proceeding.
-If not installed, download it first.
+### Step 1: Updating to the Latest Branch
+
+Always update before doing anything else
+Run this on the terminal to get the latest updates from main
 ```powershell
-# Check if you have python installed
-# Put this on your terminal (cmd, powershell)
-python --version
+git checkout main
+
+git pull origin main
 ```
 
-Make sure you also have **Git** installed on your computer.
-If not installed, download it first.
+### Step 2: Creating your Collaboration Branch
+
+Say you are developing the Mobile App
+Create your own branch from the latest main.
 ```powershell
-# Check if you have git installed
-# Put this on your terminal (cmd, powershell)
-git --version
+
+# 1. Get the latest main branch
+git checkout main
+git pull origin main
+
+# 2. Create your own feature/collaboration branch
+git checkout -b your_name/branch_name 
+eg. git checkout -b milagroso/mobile_app
+
+# 3. Do your work...
+# edit files, test, etc.
+
+# 4. Check what changed
+git status
+git diff
+
+# 5. Stage your changes
+git add .
+
+# 6. Commit
+git commit -m "state what you worked on"
+
+# 7. Push your branch to GitHub
+git push -u origin your_name/branch_name
+eg. git push -u origin milagroso/mobile_app
+
 ```
 ---
+ 
+# IF YOU WANT TO TEST THE DETECTION MODEL
 
 ## QUICK SETUP
 

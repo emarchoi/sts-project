@@ -40,9 +40,25 @@ sts_proj
 
 # COLLABORATION
 
-### Step 1: Updating to the Latest Branch
+### Step 1: Make sure to clone the repository
+
+Copy and paste this on the terminal
+
+```powershell
+# 1. Clone the repository
+git clone https://github.com/emarchoi/sts-project.git
+
+# 2. Go to the project initial directory
+cd sts-project
+
+# 3. Open the project in Visual Studio Code
+code . 
+```
+
+### Step 2: Updating to the Latest Branch
 
 Always update before doing anything else
+
 Run this on the terminal to get the latest updates from main
 ```powershell
 git checkout main
@@ -50,41 +66,38 @@ git checkout main
 git pull origin main
 ```
 
-### Step 2: Creating your Collaboration Branch
+### Step 3: Creating your Collaboration Branch
 
 Say you are developing the Mobile App
-Create your own branch from the latest main.
+
+Create your own branch from the latest main
 ```powershell
 
-# 1. Get the latest main branch
-git checkout main
-git pull origin main
-
-# 2. Create your own feature/collaboration branch
+# 1. Create your own feature/collaboration branch
 git checkout -b your_name/branch_name 
 eg. git checkout -b milagroso/mobile_app
 
-# 3. Do your work...
+# 2. Do your work...
 # edit files, test, etc.
 
-# 4. Check what changed
+# 3. Check what changed
 git status
 git diff
 
-# 5. Stage your changes
+# 4. Stage your changes
 git add .
 
-# 6. Commit
+# 5. Commit
 git commit -m "state what you worked on"
 
-# 7. Push your branch to GitHub
+# 6. Push your branch to GitHub
 git push -u origin your_name/branch_name
 eg. git push -u origin milagroso/mobile_app
 
 ```
 ---
  
-# IF YOU WANT TO TEST THE DETECTION MODEL
+# IF YOU JUST WANT TO TEST THE DETECTION MODEL
 
 ## QUICK SETUP
 

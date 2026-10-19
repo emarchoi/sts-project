@@ -27,7 +27,7 @@ void setup() {
   Serial.println("==================================================");
   Serial.println("ESP32 Waste Sorter Ready!");
   Serial.println("Bluetooth Name: ESP32_Waste_Sorter");
-  Serial.println("Waiting for signals from Flutter app ('0' or '1')...");
+  Serial.println("('0' or '1')...");
   Serial.println("==================================================");
 }
 
